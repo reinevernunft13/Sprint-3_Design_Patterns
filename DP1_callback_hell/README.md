@@ -41,8 +41,7 @@ readdir(inbox, (error, files) => {
 
 **Solution**
 
--An inbox and outbox folder were created to test the code. 
--The callback hell has been replaced with async/await syntax.
+An inbox and outbox folder were created to test the code. The callback hell has been replaced with async/await syntax.
 
 **Instructions**
 

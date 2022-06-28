@@ -1,11 +1,12 @@
 ## CALLBACK HELL 
 Callback hell -- a.k.a 'pyramid of doom' -- is an anti-pattern seen in asynchronous programming: it describes an unwieldy amount of nested callback functions forming a pyramid. 
 
-**Exercise**
+### Exercise
 The code reads and reverses contents of text files in a directory.
 Find a fix for the code below, replacing the callback hell with a better
 solution.
 
+````
 const {
   readdir,
   readFile,
@@ -36,16 +37,23 @@ readdir(inbox, (error, files) => {
   });
 });
 
+````
+
 **Solution**
+
 -An inbox and outbox folder were created to test the code. 
 -The callback hell has been replaced with async/await syntax.
 
 **Instructions**
+
 To run this program, do:
 
-1. 
+1. Install npm dependencies
+
 `npm install`
-2. 
+
+2. Run the file
+
 `node index.js`
 
 

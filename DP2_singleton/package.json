@@ -1,0 +1,13 @@
+{
+  "name": "dp2_singleton",
+  "version": "1.0.0",
+  "description": "The Singleton pattern (SP) is a creational design pattern. As such, it focuses on object creation mechanisms. The SP limits the instantiation of a class to a single object, while ensuring that it is globally accessible in the application.",
+  "main": "index.js",
+  "keywords": [
+    "singleton",
+    "design patterns",
+    "game"
+  ],
+  "author": "Cristina Carrillo",
+  "license": "ISC"
+}
